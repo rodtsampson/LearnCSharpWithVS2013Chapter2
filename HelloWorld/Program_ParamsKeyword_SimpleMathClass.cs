@@ -30,12 +30,12 @@ namespace ParamsKeyword_SimpleMathClass
     }
     class Program
     {
-        static void Main()
-        {
-            Console.WriteLine("1*2={0}", SimpleMath.FindProduct(1, 2));//5. Calls FindProduct with two values
-            Console.WriteLine("1*2*3={0}", SimpleMath.FindProduct(1, 2, 3));//6. Calls FindProduct with 3 values to show method is flexible
-            Console.WriteLine("1+2={0}", SimpleMath.FindSum(1, 2));//6. Calls FindSum with 1,2
-            Console.WriteLine("4+5+10={0}", SimpleMath.FindSum(4, 5, 10));//7. Now FindSum works with 4,5, and 10
-        }
+        //static void Main()
+        //{
+        //    Console.WriteLine("1*2={0}", SimpleMath.FindProduct(1, 2));//5. Calls FindProduct with two values
+        //    Console.WriteLine("1*2*3={0}", SimpleMath.FindProduct(1, 2, 3));//6. Calls FindProduct with 3 values to show method is flexible
+        //    Console.WriteLine("1+2={0}", SimpleMath.FindSum(1, 2));//6. Calls FindSum with 1,2
+        //    Console.WriteLine("4+5+10={0}", SimpleMath.FindSum(4, 5, 10));//7. Now FindSum works with 4,5, and 10
+        //}
     }
 }

@@ -16,13 +16,14 @@ namespace Inheritence
     }
 
     class GasCar : Vehicle //7. The field called "make" and the property called "Make" pass into GasCar
+                            //8. ":" establishes inheritence relationship between GasCar and Vehicle
     {
-        private double tankCapacity;//8. This line adds a degree of refinement to the Gas Car class
-        public GasCar(double capacity, string mk) : base(mk)//9. base(mk) means call the base class constructor to set the value of the make
+        private double tankCapacity;//9. This line adds a degree of refinement to the Gas Car class
+        public GasCar(double capacity, string mk) : base(mk)//10. base(mk) means call the base class constructor (Vehicle) to set the value of the make
         {
-            tankCapacity = capacity;//10. Sets the tank capacity for a gas car
+            tankCapacity = capacity;//11. Sets the tank capacity for a gas car
         }
-        public double Capacity//11. Property gets the value of the tankCapacity backing field
+        public double Capacity//12. Property gets the value of the tankCapacity (backing) field
         {
             get { return tankCapacity; }
         }

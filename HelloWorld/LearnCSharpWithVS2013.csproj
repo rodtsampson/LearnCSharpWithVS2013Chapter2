@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Program_AbstractClassesAndMethods.cs" />
     <Compile Include="Program_ClassConstructor.cs" />
+    <Compile Include="Program_DynamicKeyword.cs" />
     <Compile Include="Program_Inheritence.cs" />
     <Compile Include="Program_MethodAndProperty.cs" />
     <Compile Include="Program_OutKeyword.cs" />
@@ -52,6 +54,8 @@
     <Compile Include="Program_RefKeyword.cs" />
     <Compile Include="Program_StaticClass.cs" />
     <Compile Include="Program_ValueAndReferenceCopy.cs" />
+    <Compile Include="Program_VarVsDynamic.cs" />
+    <Compile Include="Program_VirtualMethods.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
