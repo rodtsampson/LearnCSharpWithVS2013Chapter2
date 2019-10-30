@@ -46,6 +46,7 @@
     <Compile Include="Program_AbstractClassesAndMethods.cs" />
     <Compile Include="Program_ClassConstructor.cs" />
     <Compile Include="Program_CustomDataType.cs" />
+    <Compile Include="Program_Delegates.cs" />
     <Compile Include="Program_DynamicKeyword.cs" />
     <Compile Include="Program_Inheritence.cs" />
     <Compile Include="Program_Lists.cs" />

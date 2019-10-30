@@ -32,20 +32,20 @@ namespace OverloadingOperators
     }
     class Program
     {
-        static void Main()
-        {
-            //make a new vector
-            Vector v1 = new Vector(1, 2, 3);
-            //make a second vector
-            Vector v2 = new Vector(4, 5, 6);
-            Vector sum = v1 + v2;//+operator is invoked
-            //make a third vector
-            Vector v3 = new Vector(1, 2, 3);
-            //make a fourth vector
-            Vector v4 = new Vector(4, 5, 6);
-            Vector diff = v4 - v3;//+operator is invoked
-            System.Console.WriteLine("Sum is " + sum.ToString());
-            System.Console.WriteLine("Diff is " + diff.ToString());
-        }
+        //static void Main()
+        //{
+        //    //make a new vector
+        //    Vector v1 = new Vector(1, 2, 3);
+        //    //make a second vector
+        //    Vector v2 = new Vector(4, 5, 6);
+        //    Vector sum = v1 + v2;//+operator is invoked
+        //    //make a third vector
+        //    Vector v3 = new Vector(1, 2, 3);
+        //    //make a fourth vector
+        //    Vector v4 = new Vector(4, 5, 6);
+        //    Vector diff = v4 - v3;//+operator is invoked
+        //    System.Console.WriteLine("Sum is " + sum.ToString());
+        //    System.Console.WriteLine("Diff is " + diff.ToString());
+        //}
     }
 }
