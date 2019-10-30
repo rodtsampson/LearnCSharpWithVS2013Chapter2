@@ -5,11 +5,21 @@ namespace CustomDataType
     class Truck//type def.
     {
         private string make;
-        //add price
-        public Truck(string manufu)
+        //added price to original class
+        private double price;
+        //public double price;
+        public Truck(string manufu, double cost)
         {
             //set the make instance variable
             make = manufu;
+            price = cost;
+        }
+        public double Price
+        {
+            get
+            {
+                return price;//7. Gets value of total instance count 
+            }
         }
     }
     class Dealer
@@ -18,12 +28,18 @@ namespace CustomDataType
         //defined as a single dealership
         private Truck[] trucks;
         private int truckCount;
+        private double inventoryValue;
         public void AddTrucks(Truck[] trks)
         {
             trucks = trks;
+            inventoryValue = 0;
             //increase truck count by length
             //of array
             truckCount += trks.Length;
+            foreach (Truck t in trks)
+            {
+                inventoryValue += t.Price;
+            }
         }
         public int TruckCount
         {
@@ -32,14 +48,22 @@ namespace CustomDataType
                 return truckCount;
             }
         }
+        public double InventoryValue
+        {
+            get
+            {
+                return inventoryValue;
+            }
+        }
     }
     class Program
     {
         static void Main()
         {
             Dealer dlr = new Dealer();
-            dlr.AddTrucks(new Truck[] { new Truck("Ford"), new Truck("Honda"), new Truck("Ford") });
-            Console.WriteLine("Truck In Stock: " + dlr.TruckCount);
+            dlr.AddTrucks(new Truck[] { new Truck("Ford", 18000), new Truck("Honda", 25000), new Truck("Ford", 23000) });
+            Console.WriteLine("Trucks In Stock: " + dlr.TruckCount);
+            Console.WriteLine("Dealer Value: " + dlr.InventoryValue);
         }
     }
 

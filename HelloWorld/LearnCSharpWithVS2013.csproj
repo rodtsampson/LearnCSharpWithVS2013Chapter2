@@ -53,6 +53,7 @@
     <Compile Include="Program_OutKeyword.cs" />
     <Compile Include="Program_ParamsKeyword_SimpleMathClass.cs" />
     <Compile Include="Program_ParamsKeyword.cs" />
+    <Compile Include="Program_Polymorphism.cs" />
     <Compile Include="Program_RefKeyword.cs" />
     <Compile Include="Program_StaticClass.cs" />
     <Compile Include="Program_ValueAndReferenceCopy.cs" />
