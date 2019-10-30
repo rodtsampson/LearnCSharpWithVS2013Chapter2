@@ -37,10 +37,10 @@ namespace AbstractClassesAndMethods
     }
     class UseShapes
     {
-        static void Main()
-        {
-            Console.WriteLine("Volume of Sphere: " + Math.Round(new Sphere(5).GetVolume(), 2));
-            Console.WriteLine("Volume of Cube: " + new Cube(5).GetVolume());
-        }
+        //static void Main()
+        //{
+        //    Console.WriteLine("Volume of Sphere: " + Math.Round(new Sphere(5).GetVolume(), 2));
+        //    Console.WriteLine("Volume of Cube: " + new Cube(5).GetVolume());
+        //}
     }
 }
