@@ -58,13 +58,13 @@ namespace CustomDataType
     }
     class Program
     {
-        static void Main()
-        {
-            Dealer dlr = new Dealer();
-            dlr.AddTrucks(new Truck[] { new Truck("Ford", 18000), new Truck("Honda", 25000), new Truck("Ford", 23000) });
-            Console.WriteLine("Trucks In Stock: " + dlr.TruckCount);
-            Console.WriteLine("Dealer Value: " + dlr.InventoryValue);
-        }
+        //static void Main()
+        //{
+        //    Dealer dlr = new Dealer();
+        //    dlr.AddTrucks(new Truck[] { new Truck("Ford", 18000), new Truck("Honda", 25000), new Truck("Ford", 23000) });
+        //    Console.WriteLine("Trucks In Stock: " + dlr.TruckCount);
+        //    Console.WriteLine("Dealer Value: " + dlr.InventoryValue);
+        //}
     }
 
     //Note: This class can be improved in several ways. This is a very basic example.
