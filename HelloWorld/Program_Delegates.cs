@@ -11,11 +11,11 @@ namespace Delegates
     }
     class Program
     {
-        static void Main()
-        {
-            MathOp add = MathOps.Add, multiply = MathOps.Multiply, divide = MathOps.Divide, all;
-            all = add + multiply + divide;
-            all(4, 5);
-        }
+        //static void Main()
+        //{
+        //    MathOp add = MathOps.Add, multiply = MathOps.Multiply, divide = MathOps.Divide, all;
+        //    all = add + multiply + divide;
+        //    all(4, 5);
+        //}
     }
 }

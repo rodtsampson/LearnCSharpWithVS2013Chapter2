@@ -35,6 +35,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,12 +45,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ControlsClass.cs" />
+    <Compile Include="Program_CleaningStrings.cs" />
+    <Compile Include="ComputingDevice.cs" />
     <Compile Include="Program_AbstractClassesAndMethods.cs" />
+    <Compile Include="Program_AccessModifiers.cs" />
+    <Compile Include="Program_Actions.cs" />
     <Compile Include="Program_ClassConstructor.cs" />
     <Compile Include="Program_CustomDataType.cs" />
     <Compile Include="Program_Delegates.cs" />
     <Compile Include="Program_DynamicKeyword.cs" />
+    <Compile Include="Program_EventsWithDelegates.cs" />
     <Compile Include="Program_Inheritence.cs" />
+    <Compile Include="Program_Interfaces.cs" />
     <Compile Include="Program_Lists.cs" />
     <Compile Include="Program_MethodAndProperty.cs" />
     <Compile Include="Program_OutKeyword.cs" />
@@ -61,7 +70,9 @@
     <Compile Include="Program_ValueAndReferenceCopy.cs" />
     <Compile Include="Program_VarVsDynamic.cs" />
     <Compile Include="Program_VirtualMethods.cs" />
+    <Compile Include="Program_BasicForms.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tablet.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
