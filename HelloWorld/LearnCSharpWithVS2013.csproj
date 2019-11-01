@@ -60,6 +60,7 @@
     <Compile Include="Program_Interfaces.cs" />
     <Compile Include="Program_Lists.cs" />
     <Compile Include="Program_MethodAndProperty.cs" />
+    <Compile Include="Program_MultipleCatchBlocks.cs" />
     <Compile Include="Program_OutKeyword.cs" />
     <Compile Include="Program_OverloadingOperators.cs" />
     <Compile Include="Program_ParamsKeyword_SimpleMathClass.cs" />
@@ -67,6 +68,8 @@
     <Compile Include="Program_Polymorphism.cs" />
     <Compile Include="Program_RefKeyword.cs" />
     <Compile Include="Program_StaticClass.cs" />
+    <Compile Include="Program_StringMethodProject.cs" />
+    <Compile Include="Program_TryCatchConstructs.cs" />
     <Compile Include="Program_ValueAndReferenceCopy.cs" />
     <Compile Include="Program_VarVsDynamic.cs" />
     <Compile Include="Program_VirtualMethods.cs" />
